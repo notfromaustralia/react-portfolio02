@@ -32,7 +32,10 @@ const Skills = () => {
       name="skills"
       className="w-full md:h-screen bg-gradient-to-r from-[#111827] to-[#240b36] text-gray-200"
     >
-      <div className="max-w-[1000px] p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div
+        data-aos="fade-up"
+        className="max-w-[1000px] p-4 mx-auto flex flex-col justify-center w-full h-full"
+      >
         <div>
           <p className="text-4xl border-b-4 inline-block border-[#7c339c] font-bold ">
             Skills & Experience

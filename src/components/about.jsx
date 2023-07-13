@@ -1,12 +1,21 @@
 import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div
       name="about"
       className="w-full h-screen bg-gradient-to-r from-[#111827] to-[#240b36] text-gray-200"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col justify-center items-center w-full h-full"
+      >
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#7c339c]">

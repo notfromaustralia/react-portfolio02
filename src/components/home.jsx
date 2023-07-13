@@ -1,7 +1,6 @@
 import { React, useEffect, useRef } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import HeaderSvg from '../assets/svgs/header-img.svg';
-import { motion, useInView, useAnimation } from 'framer-motion';
 
 const Home = () => {
   return (
@@ -10,7 +9,10 @@ const Home = () => {
       className="w-full md:h-screen bg-gradient-to-r from-[#111827] to-[#240b36]"
     >
       <div className="max-w-[100%] mx-auto py-40 lg:px-40 sm:px-4 flex justify-between h-full">
-        <div className="lg:max-w-[50%] flex-col justify-center">
+        <div
+          data-aos="fade-up"
+          className="lg:max-w-[50%] flex-col justify-center"
+        >
           <p className=" text-md text-blue-400"> Hi, my name is</p>
           <h1 className="text-4xl sm:text-4xl text-white">
             Boikhutso Sydney Baitseng
@@ -33,7 +35,10 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="max-w-[50% flex justify-end">
+        <div
+          data-aos="zoom-in-down"
+          className="z-10 max-w-[50% flex justify-end"
+        >
           <img className="animate-bouncing" src={HeaderSvg} alt="Your SVG" />
         </div>
       </div>

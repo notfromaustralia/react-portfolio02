@@ -32,8 +32,8 @@ const Navbar = () => {
     <div
       className={
         !isScrolled
-          ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#111827] to-[#240b36] text-gray-500'
-          : 'fixed w-full h-[80px] shadow-sm shadow-[#727272] flex justify-between items-center text-[#7c339c] px-4 bg-[#1b1a2b]'
+          ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#111827] to-[#240b36] text-gray-500 z-10'
+          : 'fixed w-full h-[80px] shadow-sm shadow-[#727272] flex justify-between items-center text-[#7c339c] px-4 bg-[#1b1a2b] z-10'
       }
     >
       {/* LOGO */}

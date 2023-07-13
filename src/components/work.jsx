@@ -37,7 +37,10 @@ const Work = () => {
       name="work"
       className="w-full bg-gradient-to-r from-[#111827] to-[#240b36] text-gray-200"
     >
-      <div className="max-w-[1000px] mx-auto h-full flex flex-col p-4">
+      <div
+        data-aos="fade-up"
+        className="max-w-[1000px] mx-auto h-full flex flex-col p-4"
+      >
         <div>
           <p className="text-4xl font-bold border-b-4 inline-block border-[#7c339c]">
             Recent Work

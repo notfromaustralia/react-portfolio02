@@ -6,7 +6,10 @@ const Contact = () => {
       name="contact"
       className="w-full md:h-screen bg-gradient-to-r from-[#111827] to-[#240b36] text-gray-300"
     >
-      <div className="max-w-[100%] py-10 px-4 lg:px-48 md:h-full">
+      <div
+        data-aos="fade-up"
+        className="max-w-[100%] py-10 px-4 lg:px-48 md:h-full"
+      >
         <p className="text-4xl border-b-4 inline-block border-[#7c339c]">
           Contact Me
         </p>
